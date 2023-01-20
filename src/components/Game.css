@@ -1,0 +1,31 @@
+.game {
+  margin-top: 50px;
+}
+
+.tile {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80px;
+  height: 80px;
+  cursor: pointer;
+  font-size: 50px;
+}
+
+.tile:nth-child(2n) {
+  border-left: 2px black solid;
+  border-right: 2px black solid;
+}
+
+.row {
+  width: 300px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.row:nth-child(2n) {
+  border-bottom: 2px black solid;
+  border-top: 2px black solid;
+}

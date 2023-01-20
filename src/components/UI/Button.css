@@ -1,0 +1,22 @@
+.button {
+  border: 6px black solid;
+  border-radius: 20px;
+  background: none;
+  font-size: 30px;
+  font-weight: bold;
+  cursor: pointer;
+  width: inherit;
+  text-align: center;
+  padding: 6px;
+  letter-spacing: 1px;
+}
+
+.button:disabled {
+  border-color: gray;
+  cursor: not-allowed;
+}
+
+.clicked-button:focus {
+  background-color: lightgray;
+  border-color: darkgrey;
+}
